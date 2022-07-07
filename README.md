@@ -30,7 +30,7 @@ When using version 3.0 of the AzureRM Provider we recommend using Terraform 1.x 
     
 ## For Test1: Enable Kubernetes Role-Based Access Control - AKS
  * Go to Test1 folder 
- * Change values in file "terraform.tfvars"
+ * Change values in file "terraform.tfvars" by values which are collected from creating Service Principal account
    - `appId`
    - `password`
  * Run commands
